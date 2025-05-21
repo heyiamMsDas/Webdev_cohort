@@ -1,0 +1,33 @@
+
+.pic > img{
+     height: 250px; 
+     width: 60vh;   
+     border-radius: 10px;
+}
+.about{
+    display: flex;
+}
+nav{
+    margin: 3px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 50% 30%;
+}
+span{
+    position: relative;
+    left: 30%;
+    padding: 8px 2px;
+    background-color: #007bff;
+    color: #fff ;
+    border:1px solid blue ;
+    border-radius:50px ;
+}
+span:hover{
+    color: aqua;
+     opacity:0.8;
+}
+
+span> .button{
+   display: flex;
+   justify-content: center;
+}
